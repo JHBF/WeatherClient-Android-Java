@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/empty"
+        android:id="@+id/titleText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="20sp"
+        android:lines="1"
+        android:gravity="fill_vertical"
+        android:padding="10dp"
+        android:width="195dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/empty"
+        android:id="@+id/nightText"
+        android:padding="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/morningText"
+        android:layout_toLeftOf="@+id/morningText"
+        android:textSize="20sp"
+        android:lines="1"
+        android:textAlignment="center"
+        android:gravity="fill_vertical"
+        android:width="100dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/empty"
+        android:id="@+id/morningText"
+        android:padding="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/dayText"
+        android:layout_toStartOf="@+id/dayText"
+        android:textSize="20sp"
+        android:lines="1"
+        android:textAlignment="center"
+        android:gravity="fill_vertical"
+        android:width="100dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/empty"
+        android:id="@+id/dayText"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/eveningText"
+        android:layout_toStartOf="@+id/eveningText"
+        android:lines="1"
+        android:textAlignment="center"
+        android:gravity="fill_vertical"
+        android:width="100dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/empty"
+        android:id="@+id/eveningText"
+        android:textSize="20sp"
+        android:lines="1"
+        android:padding="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textAlignment="center"
+        android:gravity="fill_vertical"
+        android:width="100dp" />
+
+</RelativeLayout>
